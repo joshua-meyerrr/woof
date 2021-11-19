@@ -1,0 +1,35 @@
+.navbar {
+  display: grid;
+  max-width: 1366px;
+  margin: 0 auto;
+  grid-auto-flow: column;
+  align-items: center;
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+.navbar__logo {
+  height: 30px;
+}
+
+.navbar__links {
+  display: grid;
+  grid-auto-flow: column;
+  list-style: none;
+  gap: 3rem;
+  margin: 0;
+}
+
+a {
+  font-size: 1.125rem;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+@media screen and (max-width: 520px) {
+  .navbar__links {
+    display: none;
+  }
+}
