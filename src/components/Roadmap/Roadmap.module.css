@@ -1,0 +1,19 @@
+.roadmap {
+  min-height: 100vh;
+  height: fit-content;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  background-color: #131a35;
+}
+
+.container {
+  padding: 0 1.5rem;
+  max-width: 1366px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.header {
+  font-size: 3rem;
+}
