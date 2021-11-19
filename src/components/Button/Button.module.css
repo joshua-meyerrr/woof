@@ -1,0 +1,29 @@
+.btn {
+  display: block;
+  max-width: fit-content;
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgba(196, 56, 244, 1) 0%,
+    rgba(120, 133, 213, 1) 49%,
+    rgba(31, 224, 177, 1) 100%
+  );
+  align-items: center;
+  padding: 1rem 1.25rem;
+  border-radius: 3rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+  transform: scale(0.98);
+}
+
+.button__text {
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.accent {
+  background-color: #9379e7;
+}
