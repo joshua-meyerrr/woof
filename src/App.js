@@ -9,8 +9,8 @@ function App() {
     <div className="App">
       <Navbar />
       <Hero />
-      <Tokenomics />
-      <Roadmap />
+      <Tokenomics id="tokenomics" />
+      <Roadmap id="roadmap" />
     </div>
   )
 }

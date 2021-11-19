@@ -7,10 +7,10 @@ function Navbar() {
       <img src="images/woof_logo.png" alt="" className={styles.navbar__logo} />
       <ul className={styles.navbar__links}>
         <li>
-          <a href="https://woofsolana.com/">Tokenomics</a>
+          <a href="#tokenomics">Tokenomics</a>
         </li>
         <li>
-          <a href="https://woofsolana.com/">Roadmap</a>
+          <a href="#roadmap">Roadmap</a>
         </li>
         <li>
           <a href="https://woofsolana.com/">Team</a>
